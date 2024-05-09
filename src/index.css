@@ -1,0 +1,87 @@
+.div1 {
+  text-align: center;
+  padding-top: 90px;
+}  
+  
+.divTag {
+  border-radius: 30px;
+  border: 1px rgba(0, 0, 0, 0.641) groove;
+  width: 40%;
+  height: 3em;
+  margin-left: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+ display: flex;
+ justify-content: space-between;
+ padding: 0 1em;
+}
+
+.divTag input {
+  width: 80%;
+  height: 95%;
+  overflow: hidden;
+
+}
+
+.divTag input:focus{
+  border: none;
+  outline: 0;
+}
+
+.but{
+  padding: 30px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.but button{
+  background-color: whitesmoke;
+  border: none;
+  padding: 7px;
+}
+
+.but button:hover{
+  box-shadow: 0px 0px 2px black;
+  border-radius: 3px;
+}
+
+.buildTag{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+
+.buildTag a{
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+.buildTag a:hover {
+  text-decoration: underline;
+}
+.buildTag h5{
+  font-weight: lighter;
+}
+
+.upTag{
+  display: flex;
+  height: 2em;
+  align-items: center;
+  margin: 1em 0;
+  justify-content: flex-end;
+  padding-right: 1em;
+  gap: 15px;
+}
+
+.upTag > :nth-child(4) {
+  height: 2rem;
+  border-radius: 100%;
+}
+
+.upTag > :nth-child(3) {
+  height: 1.7rem;
+}
